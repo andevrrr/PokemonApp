@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Покемоны</string>
+    <string name="name">Имя:</string>
+    <string name="pokemon_s_name">Имя покемона</string>
+    <string name="type">Тип:</string>
+    <string name="pokemon_s_type">Тип покемона</string>
+    <string name="list_of_pokemons">Лист покемонов</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="see_the_list_of_pokemons">Смотреть список покемонов</string>
+    <string name="pokeapi_webpage">PokeApi сайт</string>
+</resources>

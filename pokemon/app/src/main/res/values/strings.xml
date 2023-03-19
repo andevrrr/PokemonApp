@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pokemon App</string>
+    <string name="pokemon_name" translatable="false">Pikachu</string>
+    <string name="pokemon_description" translatable="false">This electric type Pokemon is famous for its lightning bolt-shaped tail.</string>
+    <string name="pokemon_type" translatable="false">Type: Electric</string>
+    <string name="pokemon_weight" translatable="false">Weight: 6.0 kg</string>
+    <string name="pokemon_height" translatable="false">Height: 0.4 m</string>
+    <string name="pokemon_image" translatable="false">Picture of Pikachu</string>
+    <string name="pokemon_weakness" translatable="false">Height: 0.4 m</string>
+    <string name="pokemon_evolution" translatable="false">Picture of Pikachu</string>
+    <string name="name">Name:</string>
+    <string name="pokemon_s_name">Pokemon\'s name</string>
+    <string name="type">Type:</string>
+    <string name="pokemon_s_type">Pokemon\'s type</string>
+    <string name="list_of_pokemons">List of Pokemons</string>
+    <string name="welcome">Welcome!</string>
+    <string name="see_the_list_of_pokemons">See the list of pokemons</string>
+    <string name="pokeapi_webpage">PokeApi WebPage</string>
+</resources>

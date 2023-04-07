@@ -53,13 +53,24 @@ public class PokemonActivity extends AppCompatActivity {
                                     detailResponse -> {
                                         try {
                                             int id = detailResponse.getInt("id");
-                                            String imageUrl = detailResponse.getJSONObject("sprites").getJSONObject("other").getJSONObject("official-artwork").getString("front_default"); // getting the pictures
+                                            String weight = String.valueOf(detailResponse.getDouble("weight")) + " KG";
+                                            String height = String.valueOf(detailResponse.getDouble("height")) + " M";
+
+                                            String stat0 = String.valueOf(detailResponse.getJSONArray("stats").getJSONObject(0).getInt("base_stat"));
+                                            String stat1 = String.valueOf(detailResponse.getJSONArray("stats").getJSONObject(1).getInt("base_stat"));
+                                            String stat2 = String.valueOf(detailResponse.getJSONArray("stats").getJSONObject(2).getInt("base_stat"));
+                                            String stat3 = String.valueOf(detailResponse.getJSONArray("stats").getJSONObject(3).getInt("base_stat"));
+                                            String stat4 = String.valueOf(detailResponse.getJSONArray("stats").getJSONObject(4).getInt("base_stat"));
+                                            String stat5 = String.valueOf(detailResponse.getJSONArray("stats").getJSONObject(5).getInt("base_stat"));
+
+                                            String imageUrl = detailResponse.getJSONObject("sprites").getJSONObject("other").getJSONObject("home").getString("front_default"); // getting the pictures
                                             List<String> types = new ArrayList<>();
                                             JSONArray typesArray = detailResponse.getJSONArray("types");
                                             for (int j = 0; j < typesArray.length(); j++) {
                                                 types.add(typesArray.getJSONObject(j).getJSONObject("type").getString("name"));
                                             }
-                                            Pokemon pokemon = new Pokemon(name, id, imageUrl, types);
+
+                                            Pokemon pokemon = new Pokemon(name, id, imageUrl, types, weight, height, stat0, stat1, stat2, stat3, stat4, stat5);
                                             pokemonList.add(pokemon); // adding a pokemon to the arraylist
                                             adapter.notifyDataSetChanged();
                                         } catch (JSONException e) {

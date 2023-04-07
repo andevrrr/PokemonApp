@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:progressDrawable">@drawable/progress_bar_determinate</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_indeterminate</item>
+    </style>
+
+    <style name="MyProgressBar2" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:progressDrawable">@drawable/progress_bar_determinate2</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_indeterminate</item>
+    </style>
+    <style name="MyProgressBar3" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:progressDrawable">@drawable/progress_bar_determinate3</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_indeterminate</item>
+    </style>
+    <style name="MyProgressBar4" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:progressDrawable">@drawable/progress_bar_determinate4</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_indeterminate</item>
+    </style>
+    <style name="MyProgressBar5" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:progressDrawable">@drawable/progress_bar_determinate5</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_indeterminate</item>
+    </style>
+    <style name="MyProgressBar6" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:progressDrawable">@drawable/progress_bar_determinate6</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_indeterminate</item>
+    </style>
+</resources>

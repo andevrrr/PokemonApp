@@ -10,8 +10,8 @@ PokemonApp is a simple application that allows users to search for Pokemon creat
 
 ## Demo on YouTube
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/u8lV5N-N-3Y/0.jpg)](https://www.youtube.com/watch?v=u8lV5N-N-3Y)
-[![Demo CountPages alpha](https://share.gifyoutube.com/u8lV5N-N-3Y.gif)](https://youtu.be/u8lV5N-N-3Y)
+[![Demo of the PokemonApp](https://i.ytimg.com/vi/u8lV5N-N-3Y/maxresdefault.jpg)](https://www.youtube.com/watch?v=u8lV5N-N-3Y)
+
 ## Libraries
 
 - AndroidX libraries:

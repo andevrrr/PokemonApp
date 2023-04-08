@@ -10,7 +10,7 @@ PokemonApp is a simple application that allows users to search for Pokemon creat
 
 ## Demo on YouTube
 
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/YOUR_CHANNEL_ID)
+[![Demo of the PokemonApp](https://i.ytimg.com/vi/u8lV5N-N-3Y/maxresdefault.jpg)](https://www.youtube.com/watch?v=u8lV5N-N-3Y)
 
 
 ## Libraries

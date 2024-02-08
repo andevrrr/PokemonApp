@@ -8,7 +8,7 @@ PokemonApp is a simple application that allows users to search for Pokemon creat
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC68IECByXeVDAAQOrnAwwFA)
 
-[![Portfolio](https://img.shields.io/badge/portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://antonkucherenko.com)
+[![Portfolio](https://img.shields.io/badge/portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://anton-kucherenko.com)
 
 
 ## Demo on YouTube
